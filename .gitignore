@@ -1,0 +1,7 @@
+# Never commit secrets or local data
+config.php
+database/*.sqlite
+database/*.sqlite-journal
+uploads/*
+!uploads/.gitkeep
+.DS_Store
